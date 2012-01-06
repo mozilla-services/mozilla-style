@@ -124,7 +124,7 @@ should be documented with what it does.
   <module name="RegexpSingleline">
     <!-- Check for trailing whitespace. -->
     <property name="format" value="\s+$"/>
-      <property name="message" value="Line has trailing spaces."/>
+    <property name="message" value="Line has trailing spaces."/>
   </module>
 
 </module>
