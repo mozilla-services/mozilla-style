@@ -26,7 +26,7 @@ should be documented with what it does.
     <module name="NeedBraces"/>
     <module name="RightCurly"/>
 
-    <!-- Class Deisgn. http://checkstyle.sourceforge.net/config_design.html -->
+    <!-- Class Design. http://checkstyle.sourceforge.net/config_design.html -->
     <module name="DesignForExtension"/>
     <module name="FinalClass"/>
     <module name="HideUtilityClassConstructor"/>
@@ -83,12 +83,15 @@ should be documented with what it does.
     <module name="LocalVariableName"/>
     <module name="MemberName">
       <!-- We require member names to be prefixed with 'm'. -->
-      <property name="format" value="^m[a-z][a-zA-Z0-9]*$" />
+      <property name="format" value="^m[A-Z][a-zA-Z0-9]*$" />
     </module>
     <module name="MethodName"/>
     <module name="PackageName"/>
     <module name="ParameterName"/>
-    <module name="StaticVariableName"/>
+    <module name="StaticVariableName">
+      <!-- We require static member names to be prefixed with 's'. -->
+      <property name="format" value="^s[A-Z][a-zA-Z0-9]*$" />
+    </module>
     <module name="TypeName"/>
 
     <!-- Regular expressions. See http://checkstyle.sourceforge.net/config_regexp.html -->
