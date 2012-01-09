@@ -169,4 +169,9 @@ should be documented with what it does.
     <property name="message" value="Line has trailing spaces."/>
   </module>
 
+  <!-- Suppress known warnings until they can be fixed. -->
+  <module name="SuppressionFilter">
+    <property name="file" value="${checkstyle.suppressions.file}"/>
+  </module>
+
 </module>
