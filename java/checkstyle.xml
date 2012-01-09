@@ -40,7 +40,6 @@ should be documented with what it does.
 
     <!-- Common coding problems. See http://checkstyle.sf.net/config_coding.html -->
     <module name="ArrayTrailingComma"/>
-    <module name="AvoidInlineConditionals"/>
     <module name="CovariantEquals"/>
     <module name="DeclarationOrder"/>
     <module name="DefaultComesLast"/>
@@ -101,7 +100,6 @@ should be documented with what it does.
 
     <!-- Miscellaneous. See http://checkstyle.sourceforge.net/config_misc.html -->
     <module name="ArrayTypeStyle"/>
-    <module name="FinalParameters"/>
     <module name="Indentation"/>
     <module name="OuterTypeFilename"/>
     <module name="TodoComment">
